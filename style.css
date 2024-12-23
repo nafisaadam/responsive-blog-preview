@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    background-color: azure;
+    position: absolute;
+    min-width: 326px !important;
+    max-height: 440px;
+    box-shadow: 8px 8px rgb(1, 12, 6);
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 32%);
+    padding: 6px 6px;
+}
+
+#blog-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.img img{
+    border-radius: 10px;
+    max-width: 300px;
+    position: relative;
+    left: 13px;
+    top: 12px;
+    bottom: 5px;
+}
+
+.main-imge {
+    max-width: 180px; 
+}
+
+.image {
+    position: relative;
+    top: 8px;
+    left: 2px;
+    margin-bottom: 20px;
+    max-width: 33px;
+
+}
+
+#learn {
+    color: #000;
+    cursor: pointer;
+    background-color: hsl(47, 88%, 63%);
+    min-width: 85px;
+    border-radius: 4px;
+    padding: 7px;
+    position: relative;
+    top: 26px;
+    left: 15px;
+    border: none;
+    text-align: center;
+    font: bolder;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#public {
+    position: relative;
+    top: 26px;
+    left: 15px;
+    font-size: small;
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+}
+.html:active{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.html:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+
+}
+
+.html {
+    position: relative;
+    top: 21px;
+    left: 15px;
+    font-size: larger;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+.language {
+    padding: 3px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    max-width: 300px;
+    color: hsl(0, 0%, 42%);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+p{
+    font-size: 16px;
+}
+
+#hooper {
+    left: 45px;
+    position: relative;
+    top: -56px;
+    margin-bottom: 7px;
+    font-size: smaller;
+    font-weight: 800;
+}
+
+.greg {
+    position: relative;
+    top: -4px;
+    left: 15px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 375px){
+    .container {
+        position: absolute;
+        left: 73px;
+        right: -60px;
+        max-width: 290px !important;
+    }
+    .img img{
+        max-width: 300px;
+    }
+}
